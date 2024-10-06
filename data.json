@@ -10,7 +10,7 @@
     },
     {
       "id": 3,
-      "booked": false
+      "booked": true
     },
     {
       "id": 4,
