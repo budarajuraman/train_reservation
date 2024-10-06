@@ -6,7 +6,7 @@ let coach = Array(12).fill(null).map((_, row) => {
 // Fetch initial seat data from the server
 async function fetchSeats() {
   try {
-    const response = await fetch('http://localhost:3000/api/seats', {
+    const response = await fetch('/api/seats', {
       headers: {
         'Content-Type': 'application/json',
       }
@@ -81,7 +81,7 @@ async function bookSeats() {
   const seatNumbers = availableSeats.map(([row, col]) => getSeatNumber(row, col));
 
   try {
-    const response = await fetch('http://localhost:3000/api/bookSeats', {
+    const response = await fetch('/api/bookSeats', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
