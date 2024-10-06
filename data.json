@@ -2,15 +2,15 @@
   "seats": [
     {
       "id": 1,
-      "booked": true
+      "booked": false
     },
     {
       "id": 2,
-      "booked": true
+      "booked": false
     },
     {
       "id": 3,
-      "booked": true
+      "booked": false
     },
     {
       "id": 4,
@@ -30,27 +30,27 @@
     },
     {
       "id": 8,
-      "booked": true
+      "booked": false
     },
     {
       "id": 9,
-      "booked": true
+      "booked": false
     },
     {
       "id": 10,
-      "booked": true
+      "booked": false
     },
     {
       "id": 11,
-      "booked": true
+      "booked": false
     },
     {
       "id": 12,
-      "booked": true
+      "booked": false
     },
     {
       "id": 13,
-      "booked": true
+      "booked": false
     },
     {
       "id": 14,
